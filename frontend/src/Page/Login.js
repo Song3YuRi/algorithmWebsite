@@ -1,8 +1,10 @@
+import '../Style/login.css';
+
 function Login(){
     return(
         <div className="login_wrap">
             <div className="login_header">
-                <h3>algorithm</h3>
+                <h2>algorithm</h2>
                 <h3>로그인</h3>
             </div>
             <div className="login_body">
@@ -19,13 +21,13 @@ function Login(){
                         로그인
                     </button>
                 </form>
-            </div>
-            <div className="login_footer">
-                <ul>
-                    <li><a>아이디 찾기</a></li>
-                    <li><a>비밀번호 찾기</a></li>
-                    <li><a>회원가입</a></li>                                        
-                </ul>
+                <div className="login_footer">
+                    <ul>
+                        <li><a>아이디 찾기</a></li>
+                        <li><a>비밀번호 찾기</a></li>
+                        <li><a>회원가입</a></li>
+                    </ul>
+                </div>                
             </div>
         </div>
     );
